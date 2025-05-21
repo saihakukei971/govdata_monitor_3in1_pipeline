@@ -1,4 +1,4 @@
-# GovInfoWatcher
+# govdata_monitor_3in1_pipeline
 
 政府機関のRSSフィード・固定URL・動画コンテンツを監視し、新着情報の通知と動画のキャプチャ・要約を行うシステムです。
 
