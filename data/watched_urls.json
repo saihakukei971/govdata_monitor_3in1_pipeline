@@ -1,0 +1,74 @@
+{
+  "rss": {
+    "__comment1": "LowEndTalk：海外VPS系掲示板の最新投稿（オファー専用）",
+    "https://lowendtalk.com/categories/offers.rss": [],
+
+    "__comment2": "総務省消防庁：新着情報",
+    "https://www.fdma.go.jp/index.xml": [],
+
+    "__comment3": "総務省消防庁：報道発表",
+    "https://www.fdma.go.jp/pressrelease/houdou/index.xml": [],
+
+    "__comment4": "総務省消防庁：お知らせ",
+    "https://www.fdma.go.jp/pressrelease/info/index.xml": [],
+
+    "__comment5": "首相官邸：各府省の新着情報（実質HTML形式）",
+    "https://www.kantei.go.jp/jp/joho/news/index.html": []
+  },
+  "html": {
+    "__comment6": "国税庁：新着情報（RSSなし・トップページ監視）",
+    "https://www.nta.go.jp/": [],
+
+    "__comment7": "関東信越税理士会：国税局からのお知らせ（HTML直監視）",
+    "https://www.kzei.or.jp/news/ippan/kokuzeikyoku/": [],
+
+    "__comment8": "総務省統計局：トップページから各統計情報更新を確認",
+    "https://www.stat.go.jp/": []
+  },
+  "video": {
+    "__comment9": "金融庁：業種別支援の着眼点（中小向け動画）",
+    "https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html": [],
+
+    "__comment10": "金融庁：NISA関連動画コーナー",
+    "https://www.fsa.go.jp/policy/nisa2/movie/index.html": [],
+
+    "__comment11": "消費者庁：18歳成人向け啓発教材",
+    "https://www.caa.go.jp/policies/policy/consumer_education/consumer_education/lower_the_age_of_adulthood/movie": [],
+
+    "__comment12": "消費者庁：高齢者向け教材（動画）",
+    "https://www.caa.go.jp/policies/policy/consumer_education/public_awareness/teaching_material/movies_for_seniors/": [],
+
+    "__comment13": "厚生労働省：働き方改革関連の動画一覧",
+    "https://hatarakikatakaikaku.mhlw.go.jp/movie.html": [],
+
+    "__comment14": "国土交通省：政策チャンネル（YouTube等）",
+    "https://www.mlit.go.jp/sogoseisaku/channel.html": [],
+
+    "__comment15": "国土交通省：省エネ法・建築基準法の説明動画",
+    "https://www.mlit.go.jp/jutakukentiku/build/r4kaisei_setsumeidouga.html": [],
+
+    "__comment16": "特許庁：制度紹介や取り組み動画",
+    "https://www.jpo.go.jp/toppage/movie/index.html": [],
+
+    "__comment17": "特許庁：課室紹介など採用向け動画",
+    "https://www.jpo.go.jp/news/saiyo/kokka/movie/index.html": [],
+
+    "__comment18": "防衛省：記者会見・広報動画",
+    "https://www.mod.go.jp/j/press/movie/index.html": [],
+
+    "__comment19": "国税庁：Web-TAX-TV（納税広報番組）",
+    "https://www.nta.go.jp/publication/webtaxtv/index.html": [],
+
+    "__comment20": "国税庁：国税の現場紹介動画",
+    "https://www.nta.go.jp/about/introduction/torikumi/week/dougademiru.htm": [],
+
+    "__comment21": "国税庁：租税教育向け動画教材",
+    "https://www.nta.go.jp/taxes/kids/kyozai/sozei/index.htm": [],
+
+    "__comment22": "国税庁：定額減税・源泉徴収関連動画",
+    "https://www.nta.go.jp/users/gensen/teigakugenzei/douga.htm": [],
+
+    "__comment23": "国税庁：確定申告の解説動画",
+    "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/tvcm.htm": []
+  }
+}

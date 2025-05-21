@@ -1,0 +1,105 @@
+# GovInfoWatcher 設定ファイル
+
+# 基本設定
+general:
+  log_dir: "logs"
+  data_dir: "data"
+  execution_interval: 15  # 分単位
+
+# RSS監視設定
+rss_sources:
+  - name: "LowEndTalk Offers"
+    url: "https://lowendtalk.com/categories/offers.rss"
+    enabled: true
+    notify: true
+
+  - name: "総務省消防庁_新着情報"
+    url: "https://www.fdma.go.jp/index.xml"
+    enabled: true
+    notify: true
+
+  - name: "総務省消防庁_報道発表"
+    url: "https://www.fdma.go.jp/pressrelease/houdou/index.xml"
+    enabled: true
+    notify: true
+
+  - name: "総務省消防庁_お知らせ"
+    url: "https://www.fdma.go.jp/pressrelease/info/index.xml"
+    enabled: true
+    notify: true
+
+  - name: "首相官邸_各府省の新着情報"
+    url: "https://www.kantei.go.jp/jp/joho/news/index.html"
+    enabled: true
+    notify: true
+
+# 固定URL監視設定
+html_sources:
+  - name: "国税庁_新着情報"
+    url: "https://www.nta.go.jp/"
+    selector: ".news-list li"  # 新着情報リストのセレクタ
+    enabled: true
+    notify: true
+
+  - name: "関東信越税理士会_国税局からのお知らせ"
+    url: "https://www.kzei.or.jp/news/ippan/kokuzeikyoku/"
+    selector: ".news-list .news-item"
+    enabled: true
+    notify: true
+
+  - name: "総務省統計局"
+    url: "https://www.stat.go.jp/"
+    selector: ".news-list dt, .news-list dd"
+    enabled: true
+    notify: true
+
+# 動画監視設定
+video_sources:
+  - name: "金融庁_業種別支援の着眼点"
+    url: "https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html"
+    video_selector: ".movie-container a"
+    enabled: true
+    capture_interval: 5  # 秒単位でのキャプチャ間隔
+    summarize: true
+    notify: true
+
+  - name: "金融庁_NISA特設サイト"
+    url: "https://www.fsa.go.jp/policy/nisa2/movie/index.html"
+    video_selector: ".movie-list a"
+    enabled: true
+    capture_interval: 5
+    summarize: true
+    notify: true
+
+  - name: "消費者庁_啓発動画"
+    url: "https://www.caa.go.jp/policies/policy/consumer_education/consumer_education/lower_the_age_of_adulthood/movie"
+    video_selector: ".movie-container video source"
+    enabled: true
+    capture_interval: 5
+    summarize: true
+    notify: true
+
+  - name: "厚生労働省_働き方改革"
+    url: "https://hatarakikatakaikaku.mhlw.go.jp/movie.html"
+    video_selector: ".movie-list a"
+    enabled: true
+    capture_interval: 5
+    summarize: true
+    notify: true
+
+# 通知設定
+notification:
+  enabled: true
+  method: "slack"  # slack, email, cli から選択
+  # Slack設定
+  slack:
+    webhook_url: ""  # secrets.yamlから読み込む
+    channel: "#notifications"
+  # メール設定
+  email:
+    smtp_server: "smtp.example.com"
+    smtp_port: 587
+    username: ""  # secrets.yamlから読み込む
+    password: ""  # secrets.yamlから読み込む
+    from_address: "noreply@example.com"
+    to_address: "user@example.com"
